@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['reset'])) {
     exit();
 }
 
-// Book class definition (make sure Book.php is properly included or defined here)
+// Book class definition 
 class Book {
     private $title;
     private $author;
